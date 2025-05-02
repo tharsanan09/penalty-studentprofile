@@ -12,6 +12,8 @@ const App = () => {
     { id: 1, name: 'Tharsan', course: 'Math', year: '2022' },
     { id: 2, name: 'Tites', course: 'Physics', year: '2023' },
     { id: 3, name: 'Dilan', course: 'Biology', year: '2024' },
+    { id: 2, name: 'Pakiss', course: 'Physics', year: '2023' },
+    { id: 3, name: 'Vinoth', course: 'Biology', year: '2024' },
   ]);
 
   const addStudent = (newStudent) => {
