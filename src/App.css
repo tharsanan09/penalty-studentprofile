@@ -1,0 +1,96 @@
+/* Global */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #343a40;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+/* Headings */
+h2, h3 {
+  color: #343a40;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+/* Form */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Alert */
+.alert {
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
